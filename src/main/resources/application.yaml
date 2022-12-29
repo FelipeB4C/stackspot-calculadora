@@ -1,0 +1,10 @@
+##Default profile
+spring:
+  application:
+    name: meuapp
+server:
+  port: ${SERVER_PORT:8080}
+
+local:
+  cotacao:
+    moeda: https://economia.awesomeapi.com.br/

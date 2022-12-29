@@ -1,0 +1,16 @@
+applied_templates:
+- inputs:
+    project_version: 0.0.1-SNAPSHOT
+    spring_boot_version: 2.7.2
+  template_data_path: graphene-java-api-stack/spring-web-api-template
+global_computed_inputs:
+  base_package: br.com.graphene.calculadora-cambio
+  package_dir: br/com/graphene/calculadora-cambio
+global_inputs:
+  build_tool: Maven
+  project_artifact_id: calculadora-cambio
+  project_group_id: br.com.graphene
+  project_java_version: '11'
+  project_name: calculadora-cambio
+stack: graphene-java-api-stack
+stack_type: app

@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  ms-calculadora-cambio:
+    image: calculadora-cambio
+    restart: always
+    environment:
+      SERVER_PORT: 8080
+      SPRING_PROFILES_ACTIVE:
+    ports:
+      - "8080:8080"
+    build: .
+    networks:
+      - app-calculadora-cambio
+networks:
+  app-calculadora-cambio:
+    driver: bridge
+
